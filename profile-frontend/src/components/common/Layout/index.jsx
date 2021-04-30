@@ -17,7 +17,7 @@ export const Layout = ({ children }) => {
     <>
       <GatsbySeo
         title={`${name} | Portfolio`}
-        description="A personal portfolio website created from Crio.Do's full stack introduction Micro Experience - QProfile"
+        description="A personal portfolio website of Meet Kumar Jain"
         canonical={url}
         openGraph={{
           type: 'website',
@@ -26,7 +26,7 @@ export const Layout = ({ children }) => {
           locale: 'en_IN',
           url,
           description:
-            "A personal portfolio website created from Crio.Do's full stack introduction Micro Experience - QProfile",
+            "A personal portfolio website of Meet Kumar Jain",
           images: [
             {
               url: 'https://crio-assets.s3.ap-south-1.amazonaws.com/Thumbnail.png',
